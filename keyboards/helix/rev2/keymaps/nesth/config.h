@@ -21,6 +21,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 // place overrides here
+#ifndef TAPPING_TERM
+   #define TAPPING_TERM 150
+#endif
 
 // If you need more program area, try select and reduce rgblight modes to use.
 
