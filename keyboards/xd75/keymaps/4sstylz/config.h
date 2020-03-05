@@ -1,4 +1,4 @@
-/* Copyright 2018 Jumail Mundekkat
+/* Copyright 2017 Benjamin Kesselring
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,3 +17,15 @@
 #pragma once
 
 // place overrides here
+
+/* Enable the space-cadet options */
+#define RSPC_KEYS KC_RSFT, KC_TRNS, KC_PGUP
+#define RCPC_KEYS KC_RCTL, KC_TRNS, KC_PGDOWN
+#define LSPO_KEYS KC_LSFT, KC_TRNS, KC_HOME
+#define LCPO_KEYS KC_LCTL, KC_TRNS, KC_END
+
+#define COMBO_COUNT 1
+#define TAPPING_TERM 175
+
+#define BACKLIGHT_BREATHING
+#undef  RGBLIGHT_ANIMATIONS
